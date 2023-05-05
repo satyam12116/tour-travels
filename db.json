@@ -1,0 +1,60 @@
+{
+  "contactus": [
+    {
+      "name": "satyam kumar",
+      "email": "satyamkumar12116@gmail.com",
+      "phoneNo": 9128390468,
+      "message": "I am genius",
+      "id": 1
+    },
+    {
+      "name": "satyam kumar",
+      "email": "satyamkumar12116@gmail.com",
+      "phoneNo": 9128390468,
+      "message": "Hlo",
+      "id": 3
+    },
+    {
+      "name": "satyam kumar",
+      "email": "satyamkumar12116@gmail.com",
+      "phoneNo": 9128390468,
+      "message": "hi",
+      "id": 4
+    }
+  ],
+  "getTour": [
+    {
+      "status": "accepted",
+      "name": "satyam kumar",
+      "email": "satyamkumar12116@gmail.com",
+      "phone": 9128390468,
+      "date": "2023-06-16",
+      "address": "laxmi pg begumpur",
+      "from": "delhi",
+      "to": "kolkata",
+      "id": 1
+    },
+    {
+      "status": "no Status",
+      "name": "satyam kumar",
+      "email": "satyamkumar12116@gmail.com",
+      "phone": 9128390468,
+      "date": "2023-05-16",
+      "address": "laxmi pg begumpur",
+      "from": "delhi",
+      "to": "mumbai",
+      "days": 3,
+      "id": 2
+    }
+  ],
+  "signUp": [
+    {
+      "id": 1,
+      "name": "satyam kumar",
+      "email": "satyamkumar12116@gmail.com",
+      "gender": "female",
+      "phoneNo": 9128390468,
+      "password": "Satyam"
+    }
+  ]
+}

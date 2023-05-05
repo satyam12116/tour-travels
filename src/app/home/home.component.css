@@ -1,0 +1,7 @@
+.carousel-inner{
+  height: 41em;
+  background-size: cover;
+  width: auto;
+
+  background-position: 50% 50%;
+}

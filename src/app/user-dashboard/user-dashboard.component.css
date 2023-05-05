@@ -1,0 +1,52 @@
+.packages {
+    background: #eee;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 4rem;
+    color: #10221b;
+}
+.packages .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+.packages .box-container .box {
+    text-align: center;
+    background: #fff;
+    border: 0.2rem solid #10221b;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+}
+
+.packages .box-container .box .image {
+    height: 25rem;
+    overflow: hidden;
+    padding: 2rem;
+    padding-bottom: 0;
+    border-radius: .5rem;
+}
+
+.packages .box-container .box .content {
+    padding: 2rem;
+}
+
+.packages .box-container .box .content .price {
+    font-size: 2rem;
+    color: #219150;
+}
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    border: 0.2rem solid #10221b;
+    color: #10221b;
+    cursor: pointer;
+    background: none;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+}
