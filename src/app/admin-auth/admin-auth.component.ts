@@ -19,6 +19,7 @@ export class AdminAuthComponent {
     if (this.email.value === 'admin@gmail.com' && this.password.value === 'admin') {
       this.ss.sharedSubject.next({state:'admin'})
       this.router.navigate(['/admin-dashboard']);
+      
     }
   }
 }

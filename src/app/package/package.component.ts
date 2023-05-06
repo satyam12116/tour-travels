@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { SharedService } from '../service/shared.service';
 
 @Component({
   selector: 'app-package',
@@ -9,10 +10,10 @@ import { Router } from '@angular/router';
   styleUrls: ['./package.component.css']
 })
 export class PackageComponent {
-
+  checkPackage=false;
   closeForm=true;
   projectForm!:FormGroup;
-  constructor(private fb:FormBuilder,private http:HttpClient,private router:Router){
+  constructor(private fb:FormBuilder,private http:HttpClient,private router:Router,private ss:SharedService){
 
   }
   ngOnInit(): void {
@@ -24,7 +25,9 @@ export class PackageComponent {
       address:['',Validators.required],
       from:['',Validators.required],
       to:['',Validators.required], 
-      days:['',Validators.required],   
+      days:['',Validators.required],
+      vehicleType:['',Validators.required] ,
+      member:['',Validators.required]   
     }) 
   }
 
@@ -38,15 +41,21 @@ submitHandler(){
     address:this.projectForm.get('address')?.value,
     from:this.projectForm.get('from')?.value,
     to:this.projectForm.get('to')?.value,
-    days:this.projectForm.get('days')?.value
+    days:this.projectForm.get('days')?.value,
+    vehicleType:this.projectForm.get('vehicleType')?.value,
+    member:this.projectForm.get('member')?.value,
   }
 
 
   if(this.projectForm.valid){
     this.http.post('http://localhost:3000/getTour',body).subscribe(res=>{
     if(res){
-      this.router.navigate(['/getproject']);
-      this.closeForm=false
+      this.router.navigate(['/req']);
+      this.closeForm=false;
+      this.checkPackage=true;
+      setTimeout(()=>{
+        this.checkPackage=false;
+      },2000)
     }
     })
   }
@@ -86,6 +95,12 @@ get to() {
 }
 get days() {
   return this.projectForm.get('days')!;
+}
+get vehicleType() {
+  return this.projectForm.get('vehicleType')!;
+}
+get member() {
+  return this.projectForm.get('member')!;
 }
 validate(): void {
   if (this.projectForm?.invalid) {

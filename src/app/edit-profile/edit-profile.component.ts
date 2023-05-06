@@ -45,7 +45,6 @@ editHandler(){
   this.http.put<any>(`http://localhost:3000/signUp/${this.user.id}`,body).subscribe(res=>{
     if(res){
       this.activeModal.close();
-      this.router.navigate(['/user-dashboard']);
     }
    
   })

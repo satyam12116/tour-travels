@@ -18,6 +18,7 @@ import { UserDashboardComponent } from './user-dashboard/user-dashboard.componen
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 import { EditDashboardComponent } from './edit-dashboard/edit-dashboard.component';
 import { RequestStatusComponent } from './request-status/request-status.component';
+import { NotificationComponent } from './notification/notification.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { RequestStatusComponent } from './request-status/request-status.componen
     UserDashboardComponent,
     EditProfileComponent,
     EditDashboardComponent,
-    RequestStatusComponent
+    RequestStatusComponent,
+    NotificationComponent
   ],
   imports: [
     BrowserModule,

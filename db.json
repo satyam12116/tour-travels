@@ -6,20 +6,6 @@
       "phoneNo": 9128390468,
       "message": "I am genius",
       "id": 1
-    },
-    {
-      "name": "satyam kumar",
-      "email": "satyamkumar12116@gmail.com",
-      "phoneNo": 9128390468,
-      "message": "Hlo",
-      "id": 3
-    },
-    {
-      "name": "satyam kumar",
-      "email": "satyamkumar12116@gmail.com",
-      "phoneNo": 9128390468,
-      "message": "hi",
-      "id": 4
     }
   ],
   "getTour": [
@@ -35,7 +21,7 @@
       "id": 1
     },
     {
-      "status": "no Status",
+      "status": "accepted",
       "name": "satyam kumar",
       "email": "satyamkumar12116@gmail.com",
       "phone": 9128390468,
@@ -45,6 +31,92 @@
       "to": "mumbai",
       "days": 3,
       "id": 2
+    },
+    {
+      "status": "no Status",
+      "name": "satyam kumar",
+      "email": "satyamkumar12116@gmail.com",
+      "phone": 9128390468,
+      "date": "2023-05-18",
+      "address": "laxmi pg begumpur",
+      "from": "banglore",
+      "to": "mumbai",
+      "days": 2,
+      "id": 3
+    },
+    {
+      "status": "no Status",
+      "name": "satyam kumar",
+      "email": "satyamkumar12116@gmail.com",
+      "phone": 9128390468,
+      "date": "2023-05-26",
+      "address": "laxmi pg begumpur",
+      "from": "chennai",
+      "to": "pune",
+      "days": 3,
+      "id": 4
+    },
+    {
+      "status": "no Status",
+      "name": "satyam kumar",
+      "email": "satyamkumar12116@gmail.com",
+      "phone": 9128390468,
+      "date": "2023-05-30",
+      "address": "laxmi pg begumpur",
+      "from": "mumbai",
+      "to": "delhi",
+      "days": 4,
+      "id": 5
+    },
+    {
+      "status": "no Status",
+      "name": "satyam kumar",
+      "email": "satyamkumar12116@gmail.com",
+      "phone": 9128390468,
+      "date": "2023-05-17",
+      "address": "laxmi pg begumpur",
+      "from": "delhi",
+      "to": "mumbai",
+      "days": 4,
+      "id": 6
+    },
+    {
+      "status": "no Status",
+      "name": "satyam kumar",
+      "email": "satyamkumar12116@gmail.com",
+      "phone": 9128390468,
+      "date": "2023-05-17",
+      "address": "laxmi pg begumpur",
+      "from": "delhi",
+      "to": "kolkata",
+      "days": 1,
+      "id": 7
+    },
+    {
+      "status": "no Status",
+      "name": "satyam kumar",
+      "email": "satyamkumar12116@gmail.com",
+      "phone": 9128390468,
+      "date": "2023-05-09",
+      "address": "laxmi pg begumpur",
+      "from": "delhi",
+      "to": "banglore",
+      "days": 2,
+      "id": 8
+    },
+    {
+      "status": "no Status",
+      "name": "satyam kumar",
+      "email": "satyamkumar12116@gmail.com",
+      "phone": 9128390468,
+      "date": "2023-05-23",
+      "address": "laxmi pg begumpur",
+      "from": "banglore",
+      "to": "chennai",
+      "days": 2,
+      "vehicleType": "AC BUS",
+      "member": "3",
+      "id": 9
     }
   ],
   "signUp": [
@@ -52,7 +124,7 @@
       "id": 1,
       "name": "satyam kumar",
       "email": "satyamkumar12116@gmail.com",
-      "gender": "female",
+      "gender": "Female",
       "phoneNo": 9128390468,
       "password": "Satyam"
     }

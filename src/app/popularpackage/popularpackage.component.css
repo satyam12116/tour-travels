@@ -14,6 +14,7 @@
     -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1.5rem;
+    max-height: 400px;
 }
 .packages .box-container .box {
     text-align: center;
